@@ -62,6 +62,7 @@ model Attachment {
 model Chapter {
   id       String    @id @default(auto()) @map("_id") @db.ObjectId
   title String
+  url String?
   description String?
   videoUrl String?
   position Int
